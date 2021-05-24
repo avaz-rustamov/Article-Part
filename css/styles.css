@@ -11,10 +11,12 @@ html {
 
 
 body {
-font-family: "Roboto", "Arial", sans-serif;
-background-color: #C9F8FE;
-font-size: 14px;
+  font-family: "Roboto", "Arial", sans-serif;
+  background-color: #C9F8FE;
+  font-size: 14px;
+  font-weight: 500;
 }
+
 .container {
   max-width: 900px;
   padding-left: 20px;
@@ -22,13 +24,14 @@ font-size: 14px;
   margin-left: auto;
   margin-right: auto;
 }
+
 .site_fex {
   display: flex;
   padding-top: 50px;
 }
-.site-press {
 
-}
+.site-press {}
+
 .site_press_page {
   display: flex;
   flex-direction: column;
@@ -39,8 +42,9 @@ font-size: 14px;
   /* align-items: center; */
   width: 400px;
   color: #fff;
-  padding: 144px 0px  144px 80px;
+  padding: 144px 0px 144px 80px;
 }
+
 .button {
   display: flex;
   align-items: center;
@@ -55,30 +59,37 @@ font-size: 14px;
   padding: 8px;
   border-radius: 21px;
 }
+
 .site-article_main {
   width: 500px;
 }
+
 .site_press_page_heading {
   padding: 0;
   font-size: 25px;
 }
+
 .site_press_page_text {
   font-weight: 500;
   font-size: 16px;
 }
+
 .site_article {
   background-color: #fff;
   padding: 35px;
 }
+
 .site_article_top {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-bottom: 30px;
 }
+
 .article_headeing {
   margin: 0;
 }
+
 .article_menu {
   display: block;
   height: 3px;
@@ -87,6 +98,7 @@ font-size: 14px;
   width: 20px;
   background: rgba(0, 0, 0, 0.733);
 }
+
 .site_year_list {
   display: flex;
   justify-content: space-around;
@@ -94,8 +106,50 @@ font-size: 14px;
   padding-left: 0;
   margin: 0;
 }
+
 .year_list_item {
   margin-left: 9px;
   font-size: 18px;
   font-weight: 700;
+}
+.list_left {
+  margin-left: auto;
+
+}
+.article_list img {
+  border-radius: 50%;
+  margin-right: 20px;
+  margin-bottom: 14px;
+}
+.article_list_left__number {
+  display: flex;
+  align-items: center;
+}
+
+.article_list_left__number p {
+  font-size: 33px;
+  font-weight: 300;
+  margin: 0;
+  margin-right: 8px;
+}
+
+.article_lists {
+  padding-left: 0;
+}
+
+.article_list {
+  display: flex;
+  align-items: center;
+
+}
+
+
+.list_number {
+  display: flex;
+  flex-direction: column;
+}
+
+.list_yeat {
+  font-weight: 700;
+  text-transform: uppercase;
 }
